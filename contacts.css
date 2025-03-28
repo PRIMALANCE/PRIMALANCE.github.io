@@ -1,0 +1,148 @@
+h1 {
+    font-size: 50px; /* Makes the header larger */
+    text-align: center;
+    color: #262626;
+    margin-top: 20px;
+    font-weight: bold;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #FFFAEC;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+/* Contact Section */
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px; /* Leaves space for a header */
+    height: calc(100vh - 100px); /* Adjust height while leaving space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Grid Layout */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    flex-grow: 1; /* Expands to fill available space */
+}
+
+/* Contact Boxes */
+/* Contact Boxes */
+.contact-box {
+    background: #F5ECD5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centers text */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+}
+
+
+.icon {
+    font-size: 28px;
+}
+
+h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Navbar Styling */
+nav {
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+}
+
+/* Remove default list styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Align list items inline */
+nav ul li {
+    display: inline-block; /* Ensures hover effect works */
+    margin: 0 15px;
+}
+
+/* Default Link Style */
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #262626;
+    background-color: #F5ECD5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block; /* Helps with hover effects */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    background-color: #262626;
+    color: #F5ECD5;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns buttons to the right */
+    gap: 10px; /* Adds space between buttons */
+    width: 100%; /* Ensures full width */
+}
+
+.button-container a:hover {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.button-container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #F5ECD5;
+    background-color: #262626;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block; /* Helps with hover effects */
+    transition: all 0.3s ease-in-out;
+}
+.home {
+    padding: 10px 20px;
+    background-color: #262626; /* Dark background */
+    color: #F5ECD5; /* Light text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+

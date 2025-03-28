@@ -1,0 +1,139 @@
+/* General Page Styling */
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAEC;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #FFFAEC;
+    padding: 20px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Ensures proper spacing */
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #262626;
+    background-color: #F5ECD5;
+    padding: 12px 20px;
+    border-radius: 5px;
+    display: inline-block; /* Required for scale effect */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    background-color: #262626;
+    color: #F5ECD5;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+section {
+    background: #F5ECD5;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Video Cards */
+.video-card {
+    background: #FFFAEC;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 750px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.video-card h3 {
+    font-size: 20px;
+    color: #262626;
+}
+
+.video-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+video {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background: #F5ECD5;
+    color: #262626;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.home {
+    padding: 10px 20px;
+    background-color: #262626; /* Dark background */
+    color: #F5ECD5; /* Light text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns buttons to the right */
+    gap: 10px; /* Optional: adds space between the buttons */
+  }
+
+.button-container a:hover {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
